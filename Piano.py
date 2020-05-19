@@ -1,10 +1,11 @@
 from selenium import webdriver
 from pyautogui import *
 
-
+#Simply Just run the for a chromedrive that suits your chrome version and wait till the game loads and you can press play
 driver=webdriver.Chrome('chromedriver.exe')
 
 driver.get('https://poki.com/en/g/piano-tiles-2')
+
 # Tile Coordinates
 a1, b1= 463, 507
 a2, b2= 531, 507
